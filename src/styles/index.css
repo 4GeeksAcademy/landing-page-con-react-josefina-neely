@@ -12,12 +12,41 @@
 
 */
 
-.jumbotron{
+.jumbotron {
     background-color: rgb(227, 225, 225);
     padding: 20px;
     border-radius: 5px;
+    margin-bottom: 20px;
+
 }
 
-.Card{
-    
+.card {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+.col-md-3 {
+    flex: 1;
+    max-width: 30%;
+    margin: 10px;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+
+.footer {
+    margin-top: 60px;
+}
+
+.btn {
+    position: center;
 }
